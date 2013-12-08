@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "Monaco";
+	src: local("Monaco"), url ('https://github.com/vjpr/monaco-bold/blob/master/MonacoBSemi/Monaco.otf') format("truetype");
+
+}
+body {
+	background-color: #000;
+}
+
+#content {
+	width: 900px;
+	background-color: #222;
+	margin-left: auto;
+	margin-right: auto;
+	color: #eee;
+}
+
+h1 {
+	font-family: "Courier New";
+	font-size: 60px;
+	text-align: center;
+	font-weight: normal;
+	margin: auto;
+}
