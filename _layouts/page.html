@@ -2,18 +2,7 @@
 layout: default
 ---
 <head>
-	{% case page.headtouse %}
-	{% when 'head' %}
-		{% include ds/headcontent.html %}
-	{% when 'posthead' %}
-		{% include {{ site.dsbhead }} %}
-	{% when 'abouthead' %}
-		{% include {{ site.dsahead }} %}
-	{% when 'gamehead' %}
-		{% include {{ site.dsghead }} %}
-	{% when 'unithead' %}
-		{% include {{ site.dsunithead }} %}
-	{% endcase %}
+	{% include headcontent.html %}
 </head>
 <body>
 
@@ -27,7 +16,7 @@ layout: default
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-{% include ds/header.html %}
+{% include header.html %}
 <div class="inner-content">
 	{{ content }}
 </div>

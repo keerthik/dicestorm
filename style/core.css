@@ -5,16 +5,16 @@
 
 @font-face {
     font-family: 'FiraSans'; /*a name to be used later*/
-    src: url('/resources/fonts/firasans/OTF/FiraSans-Regular.otf'); /*URL to font*/
+    src: url('/res/font/firasans/OTF/FiraSans-Regular.otf'); /*URL to font*/
 }
 
 @font-face {
     font-family: 'FiraSans Light'; /*a name to be used later*/
-    src: url('/resources/fonts/firasans/OTF/FiraSans-Light.otf'); /*URL to font*/
+    src: url('/res/font/firasans/OTF/FiraSans-Light.otf'); /*URL to font*/
 }
 
 body {
-	background-image: url('/resources/images/crossword.png');
+	background-image: url('/res/img/crossword.png');
 	font-family: 	"FiraSans";
 	font-size: 		20px;
 	letter-spacing: 1px;

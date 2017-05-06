@@ -1,5 +1,5 @@
 ---
-layout: ds/page
+layout: page
 headtouse: posthead
 title: Blog
 ---

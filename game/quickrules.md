@@ -1,10 +1,10 @@
 ---
-layout: ds/page
+layout: page
 title: Instructions
 headtouse: gamehead
 ---
 
-[Unit Cards (Epic)](units_epic.html)
+[Unit Cards](units/)
 
 ## Win Condition
 The last side to have live units remaining on the board once deployments are over wins.
