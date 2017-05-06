@@ -1,0 +1,232 @@
+@font-face {
+	font-family: "Monaco";
+	src: local("Monaco"), url ('https://github.com/vjpr/monaco-bold/blob/master/MonacoBSemi/Monaco.otf') format("truetype");
+
+}
+body {
+	background-color: #000;
+}
+
+#content {
+	width: 900px;
+	background-color: #222;
+	margin-left: auto;
+	margin-right: auto;
+	color: #eee;
+}
+
+h1 {
+	font-family: "Courier New";
+	font-size: 60px;
+	text-align: center;
+	font-weight: normal;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: "Courier New";
+	font-size: 45px;
+	font-weight: normal;
+	margin: 0 auto;	
+}
+
+
+.d4, .d6, .d8, .d12, .d20 {
+	position: relative;
+	display: inline-block;
+	padding: 0px 5px;
+	line-height: 1.5em;
+}
+
+.d6 {
+	border: 3px solid #fff;
+	border-radius: 4px;
+}
+
+.d4 {
+	border: 3px solid #6f6;
+	border-radius: 4px;
+}
+
+.d8 {
+	border: 3px solid #33f;
+	border-radius: 4px;
+}
+
+.d12 {
+	border: 3px solid #f33;
+	border-radius: 4px;
+}
+
+.d20 {
+	border: 3px solid #f73;
+	border-radius: 4px;
+}
+
+.nuanced {
+	position: relative;
+	display: inline;
+}
+
+.nuanced .active,.nuanced .faction_ability,.nuanced .titanpath {
+	text-decoration: underline;
+}
+
+.nuances {
+	display: none;
+	visibility: hidden;
+	bottom: 30px;
+}
+
+.nuanced:hover .nuances{
+    position: relative;	
+	display: inline-block;
+	visibility: visible;
+	width: 550px;
+	font-size: 15px;
+	line-height: 1.5em;
+	color: #ddd;
+	content: attr("title");
+	left: 7%;
+	padding: 10px 15px;
+	position: absolute;
+	z-index: 98;
+	background: #333;
+	background: rgba(0,0,0,.8);
+	border-radius: 5px;
+}
+
+.nuances .active,.nuances .faction_ability,.nuances .titanpath {
+	text-decoration: none;
+}
+
+.faction {
+	margin-top: 30px;
+}
+
+#demons h3 {
+	font-family: "Courier New";
+	color: #d93;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 10px;
+}
+
+#robots h3 {
+	font-family: "Courier New";
+	color: #39d;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 10px;	
+}
+.unit {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	border: 2px solid blue;
+}
+
+.portrait {
+	float: left;
+	position: relative;
+	display: inline-block;
+	right: 0px;
+	margin: 0 10px;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #ddd;
+}
+
+.stats {
+	float: left;
+	position: relative;
+	width: 650px;
+	font-family: Monaco;
+	color: #ccc;
+	line-height: 3em;
+	margin: 0 5px;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.allunits {
+	color: #adf;
+}
+
+.allies {
+	color: #afa;
+}
+
+.enemies {
+	color: #f33;
+}
+
+.map {
+	color: #a77;
+}
+
+.dice {
+	color: #e7f;
+}
+.shielding {
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+.active {
+	color: #fff;
+}
+
+.defensive {
+	color: #7f7;
+}
+
+#demons .titanpath {
+	color: #f00;
+}
+
+#robots .titanpath {
+	color: #00f;
+}
+
+#demons .faction_ability {
+	color: #f77;
+}
+
+#robots .faction_ability {
+	color: #77f;	
+}
+
+
+.arrowtest-top { 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	line-height: 0; 
+	border: 20px dashed #666; 
+	border-bottom-color: #000; 
+	left:10px;
+	top: 10px; 
+	border-top-color: transparent; 
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.arrowtest-top:after {
+	content:'';
+	position:absolute;
+	width: 0;
+	height: 0;
+	border: 18px dashed #fff; 
+	left: -18px; 
+	top: -17px; 
+	border-top-color: transparent; 
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
